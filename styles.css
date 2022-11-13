@@ -1,0 +1,143 @@
+body {
+  text-align: center;
+  font-family: Arimo;
+}
+
+span {
+  font-size: 30px;
+}
+
+#hero-container {
+  background-image: url(images/vancouver.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 150px;
+  color: white;
+  margin: 10px 10px 0 10px;
+}
+
+.vancouver {
+  font-weight: bold;
+  font-size: 40px;
+  text-shadow: 2px 2px 2px black;
+  margin: 0;
+}
+
+.city {
+  font-style: italic;
+  font-size: 25px;
+  text-shadow: 2px 2px 2px black;
+}
+
+/* Activities */
+.flex-container {
+  margin: 40px 10px 0 10px;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.activity-text {
+  display: block;
+  margin: 0 10px;
+  background-color: #fff;
+  padding: 40px 10px 0px 10px;
+  color: #3C4048;
+}
+
+  .box {
+    color: #3C4048;
+    width: 140px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin: 50px 110px 0 110px;
+  }
+
+  .text {
+    text-align: center;
+    color: #3C4048;
+
+
+  }
+
+.title-text {
+  text-align: center;
+  margin-top: 5px;
+}
+
+  p {
+    max-width: 40ch;
+  }
+
+  .activity-image {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+  }
+
+.night-life-container {
+  padding: 0 50px;
+}
+
+/* Guided */
+
+.card-container {
+  background-color: #C9CCD5;
+color: #3C4048;
+margin: 50px 10px 0px 10px;
+display: flex;
+justify-content: center;
+padding: 50px 0;
+
+}
+
+.card-border {
+  display: flex;
+  align-items:  center;
+  justify-content: center;
+  border: 5px solid #748DA6;
+  padding: 10px;
+  background-color: #EED7CE;
+}
+.erikka-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #C9CCD5;
+}
+
+.card-name {
+  margin: 0px auto;
+}
+
+.card-job {
+  margin: 0px auto;
+  padding-bottom: 15px;
+}
+
+.items {
+  padding: 0 5px 0 5px;
+}
+
+/* footer */
+
+.footer {
+margin: 0 10px;
+background-color: #C9CCD5;
+color: #fff;
+font-size: 12px;
+
+
+}
+
+.copyright {
+  padding: 0 20px 20px 20px;
+  margin-top: 0;
+  max-width: none;
+}
